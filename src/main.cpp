@@ -2,8 +2,8 @@
 
 int main()
 {
-    auto window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}), "CMake SFML Project");
-    window.setFramerateLimit(144);
+    auto window = sf::RenderWindow(sf::VideoMode({1280, 720}), "Maze Runner");
+    window.setFramerateLimit(60);
 
     while (window.isOpen())
     {
